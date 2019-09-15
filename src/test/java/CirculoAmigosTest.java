@@ -25,7 +25,7 @@ public class CirculoAmigosTest {
 		Set <String> c3 = new HashSet<String> (); c3.add("e"); c3.add("f"); c3.add("g"); 
 		Set <String> c4 = new HashSet<String> (); c4.add("i"); c4.add("j");
 		
-		// Calculando círculos
+		// Calculando cï¿½rculos
 		List <Set<String>> circuloAmigos = CirculoAmigos.retornaCirculos(listaAmigos);
 		
 		assertTrue(circuloAmigos.contains(c1));
@@ -47,7 +47,7 @@ public class CirculoAmigosTest {
 		// Circulos que devem ser encontrados
 		Set <String> c1 = new HashSet<String> (); c1.add("a"); c1.add("b"); c1.add("c"); c1.add("e"); c1.add("f");
 		
-		// Calculando círculos
+		// Calculando cï¿½rculos
 		List <Set<String>> circuloAmigos = CirculoAmigos.retornaCirculos(listaAmigos);
 		
 		assertTrue(circuloAmigos.contains(c1));
@@ -58,7 +58,7 @@ public class CirculoAmigosTest {
 	public void test3 () {
 		ArrayList<Pair<String,String>> listaAmigos = new ArrayList <Pair<String,String>> ();
 
-		// Calculando círculos
+		// Calculando cï¿½rculos
 		List <Set<String>> circuloAmigos = CirculoAmigos.retornaCirculos(listaAmigos);
 
 		assertEquals(circuloAmigos.size(),0);	
